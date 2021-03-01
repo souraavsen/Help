@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#BA9865"
+    tools:context=".labaid">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@drawable/labaid"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:layout_width="365dp"
+        android:layout_height="284dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="serif-monospace"
+        android:text="LabAid Hospital Ltd.\nLabaid Specialized Hospital, a concern of Labaid Group is the only multi-disciplinary super-specialty tertiary care hospital in Bangladesh, confidently providing comprehensive health care with the latest medical, surgical and diagnostic facilities. \n Contact : 9894776, 0178360854\n\nAvailable seats : 15"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

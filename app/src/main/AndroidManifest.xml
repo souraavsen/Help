@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.help">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Help">
+        <activity android:name=".faith"></activity>
+        <activity android:name=".green" />
+        <activity android:name=".comfort" />
+        <activity android:name=".addin" />
+        <activity android:name=".labaid" />
+        <activity android:name=".gulshanphy" />
+        <activity android:name=".ahsania" />
+        <activity android:name=".almadina" />
+        <activity android:name=".alrashid" />
+        <activity android:name=".care" />
+        <activity android:name=".central" />
+        <activity android:name=".square" />
+        <activity android:name=".ibne" />
+        <activity android:name=".harun" />
+        <activity android:name=".about" />
+        <activity android:name=".uttara" />
+        <activity android:name=".gulshan" />
+        <activity android:name=".mirpur" />
+        <activity android:name=".dhanmondi" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#BA9865"
+    tools:context=".almadina">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@drawable/almadina"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:layout_width="396dp"
+        android:layout_height="284dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="serif-monospace"
+        android:text="Al Madina Hospital\nAlways at your service.\nH-5, R-4, BI-A, Sec-6, Mirpur, Dhkaa-1216\n Contact : 8051974, 01716-857717, 9015914\n\nAvailable seats : 04"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+
+</LinearLayout>

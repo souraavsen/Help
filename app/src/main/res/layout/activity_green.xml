@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#BA9865"
+    tools:context=".green">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@drawable/greenland"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <TextView
+        android:layout_width="365dp"
+        android:layout_height="284dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="serif-monospace"
+        android:text="Green Land Hospital Ltd\nH-6, R-1;B, Sec-9. Uttara; Dhaka-1230.\n Contact : 9894776, 01903433818\n\nAvailable seats : 14"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
